@@ -6,7 +6,7 @@ This is my **personal portfolio website** built using **Next.js 14 (App Router)*
 
 ## 🌐 Live Demo
 
-▶️ [View Live Site](https://portfolio-next-js-ovoo.vercel.app)
+▶️ [View Live Site]https://portfolio-next-js-oovo.vercel.app
 
 ---
 
