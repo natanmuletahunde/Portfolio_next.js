@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 
@@ -7,12 +6,8 @@ const ProjectCard = ({ imgUrl, title, description }) => {
   return (
     <div>
       <div
-        className="group rounded-t-xl h-52 md:h-72 bg-center relative overflow-hidden"
-        src={imgUrl}
-        alt={title}
-        width={300}
-        height={200}
-        style={{ background: `url(${imgUrl})`, backgroundSize: "contain" }}
+        className="group rounded-t-xl h-52 md:h-72 bg-center bg-no-repeat bg-contain relative overflow-hidden"
+        style={{ backgroundImage: `url(${imgUrl})` }}
       >
         <div className="overlay absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 items-center justify-center">
           <Link
