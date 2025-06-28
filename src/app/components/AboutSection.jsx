@@ -14,7 +14,7 @@ const TAB_DATA = [
         <li>PostgreSQL</li>
         <li>Sequelize</li>
         <li>MongoDB</li>
-        <li>Mongoose</li>
+        
       </ul>
     ),
   },
